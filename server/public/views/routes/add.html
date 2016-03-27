@@ -1,0 +1,30 @@
+<div class = maincontainer>
+  <h3> places to go, people to see.</h3>
+
+  <form ng-submit="submit(petObject)">
+    <div class="inputSpace">
+      <label for="petAge">Pet's Age:</label>
+      <input ng-model="petObject.name" type="text" placeholder="name"/>
+      <br />
+    </div>
+
+    <div class="inputSpace">
+      <label for="petType">Type of Pet:</label>
+      <input ng-model="petObject.type" type="text" placeholder="pet type"/>
+      <br />
+    </div>
+
+    <div class="inputSpace">
+    <label for="petAge">Pet's Age:</label>
+    <input ng-model="petObject.age" type="int" placeholder="pet age" require />
+    <br />
+    </div>
+
+    <div class="inputSpace">
+    <label for="petImage">Pet's closeup:</label>
+    <input ng-model="petObject.image" type="text" placeholder="image url" require />
+    <br />
+  </div>
+    <input  type="submit"/>
+  </form>
+</div>

@@ -1,0 +1,127 @@
+body{
+background: url('shutterspeed.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow:auto;
+  }
+
+h2{
+  color:#CEFAFF;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 90px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+
+
+}
+
+h3{
+  color: rgba(0, 0,0, 0.8);
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.maincontainer{
+  color: white;
+  position: relative;
+  margin: 0 auto;
+  padding: 40px;
+  /*left: 50%;*/
+  background-color: rgba(206,250,255, 0.85);
+  width: 600px;
+  height: 500px;
+}
+
+.inputSpace{
+  margin: 50px;
+}
+form{
+  color: black;
+  letter-spacing: 1px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  line-height: 20px;
+
+}
+
+.displayObject{
+  background-color: white;
+  margin:200px;
+}
+label{
+  font-size: 25px;
+  color: dimgray;
+  display: inline-block;
+  float: left;
+  clear: right;
+}
+
+input{
+  color: black;
+  letter-spacing: 1.5px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  float: right;
+  width: 200px;
+  height: 30px;
+  top: 5px;
+
+}
+
+p {
+color:#CEFAFF;
+letter-spacing: 2px;
+font-family: 'Oswald', sans-serif;
+
+}
+
+ul{
+  display: inline-block;
+  list-style: none;
+}
+li{
+  text-decoration: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  /*font-family: sans-serif;*/
+  margin: 10px;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  /*font-family: sans-serif;*/
+  font-family: 'Oswald', sans-serif;
+  background-color: white;
+  border radius: 0;
+  padding: 10px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+  /*font-family: sans-serif;*/
+  font-family: 'Oswald', sans-serif;
+  background-color: #CEFAFF;
+  border radius: 0;
+  padding: 10px;
+  margin-top: 5px;
+}
+a:active{
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+}
+label{
+  /*font-family: 'Open Sans';*/
+font-family: 'Oswald', sans-serif;
+}
