@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 mongoose.connect("mongodb://localhost/findpet");
 
                       //new object
-mongoose.model("pet", new Schema ({"name": String, "type": String, "age": Number, "image": String}));
+mongoose.model("pet", new Schema ({"name": String, "type": String, "age": String, "image": String}));
 var Pets = mongoose.model("pet");
 
 //database code.

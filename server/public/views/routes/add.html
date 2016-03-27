@@ -3,26 +3,26 @@
 
   <form ng-submit="submit(petObject)">
     <div class="inputSpace">
-      <label for="petAge">Pet's Age:</label>
-      <input ng-model="petObject.name" type="text" placeholder="name"/>
+      <label for="petAge">Destination:</label>
+      <input ng-model="petObject.name" type="text" placeholder=" where to?"/>
       <br />
     </div>
 
     <div class="inputSpace">
-      <label for="petType">Type of Pet:</label>
-      <input ng-model="petObject.type" type="text" placeholder="pet type"/>
+      <label for="petType">Mode of transportation:</label>
+      <input ng-model="petObject.type" type="text" placeholder=" fly  |  drive  |  swim"/>
       <br />
     </div>
 
     <div class="inputSpace">
-    <label for="petAge">Pet's Age:</label>
-    <input ng-model="petObject.age" type="int" placeholder="pet age" require />
+    <label for="petAge">How long?</label>
+    <input ng-model="petObject.age" type="text" placeholder=" 48 hrs  |  forever  |  a week" />
     <br />
     </div>
 
     <div class="inputSpace">
-    <label for="petImage">Pet's closeup:</label>
-    <input ng-model="petObject.image" type="text" placeholder="image url" require />
+    <label for="petImage">Preview</label>
+    <input ng-model="petObject.image" type="text" placeholder=" pretty pictures only" />
     <br />
   </div>
     <input  type="submit"/>

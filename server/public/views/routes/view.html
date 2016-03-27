@@ -1,15 +1,15 @@
 <div ng-repeat="object in animalArray">
 
 <div class="displayObject">
-
-  {{ data.response.results[0].name }}
-  {{ data.response.results[0].type }}
-  {{ data.response.results[0].age }}
-
-
+  <img class="picture" ng-src="{{ data.response.results[0].image }}"  />
+  <h3>destination: {{ data.response.results[0].name }}</h3>
+  <h4>mode of transportation: {{ data.response.results[0].type }}</h4>
+  <h4>length of stay: {{ data.response.results[0].age }}</h4>
 
 
-  <img ng-src="{ data.response.results[0].image }" height="100px"  />
+
+
+
 </div>
 
 

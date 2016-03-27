@@ -20,12 +20,21 @@ h2{
 }
 
 h3{
-  color: rgba(0, 0,0, 0.8);
+  color: black;
   letter-spacing: 2px;
   font-family: 'Oswald', sans-serif;
-  font-size: 38px;
+  font-size: 46.5px;
   text-align: center;
   text-transform: uppercase;
+}
+h4{
+  color: black;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+
 }
 
 
@@ -36,7 +45,7 @@ h3{
   padding: 40px;
   /*left: 50%;*/
   background-color: rgba(206,250,255, 0.85);
-  width: 600px;
+  width: 670px;
   height: 500px;
 }
 
@@ -53,15 +62,29 @@ form{
 }
 
 .displayObject{
-  background-color: white;
-  margin:200px;
+  color: black;
+  position: relative;
+  margin: 0 auto;
+  padding: 40px;
+  /*left: 50%;*/
+  background-color: rgba(255,255,255, 0.8);
+  width: 670px;
+  height: 500px;
 }
 label{
   font-size: 25px;
-  color: dimgray;
+  color: black;
   display: inline-block;
   float: left;
   clear: right;
+}
+
+.picture{
+  display: inline-block;
+  width: 650px;
+  height: 200px;
+  overflow: hidden;
+  border: 10px solid white;
 }
 
 input{
@@ -73,7 +96,7 @@ input{
   float: right;
   width: 200px;
   height: 30px;
-  top: 5px;
+  transform: translateY(-7px);
 
 }
 
