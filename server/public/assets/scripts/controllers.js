@@ -11,10 +11,12 @@ myApp.controller("AddController", ["$scope", "PetService", function($scope, PetS
 myApp.controller("ShowController", ["$scope", "PetService", function($scope, PetService){
     var petService = PetService;
     $scope.data={};
-    $scope.data.response = petService.data;
 
     //GET HERE
     petService.getData();
-    $scope.animalArray = petService.data;
+    $scope.data = petService.data;
+
+
+    // $scope.animalArray = petService.data;
     console.log("OBJECT: ", petService.data);
 }]);

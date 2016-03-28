@@ -1,20 +1,24 @@
 <!-- can't figure out how to dynamically add these to the DOM.
     so they are hardcoded  -->
 
-<div ng-repeat="object in animalArray">
+<!-- <div ng-repeat="object in animalArray"> -->
 
 <div class="displayObject">
-  <img class="picture" ng-src="{{ data.response.results[0].image }}"  />
+  <!-- <img class="picture" ng-src="{{ data.response.results[0].image }}"  />
   <h3>destination: {{ data.response.results[0].name }}</h3>
   <h4>mode of transportation: {{ data.response.results[0].type }}</h4>
   <h4>length of stay: {{ data.response.results[0].age }}</h4>
 
   <img class="picture" ng-src="{{ data.response.results[1].image }}"  />
-  <h3>destination: {{ data.response.results[1].name }}</h3>
-  <h4>mode of transportation: {{ data.response.results[1].type }}</h4>
-  <h4>length of stay: {{ data.response.results[1].age }}</h4>
+  <h3> {{ data.response.results[1].name }}</h3>
+  <h4> {{ data.response.results[1].type }}</h4>
+  <h4>{{ data.response.results[1].age }}</h4> -->
 
-
+  <div ng-repeat="pet in data.results | orderBy: 'name' " >
+      <img class="picture" ng-src="{{ pet.image }}" />
+     <h3> destination: {{ pet.name }}</h3>  
+     <h4> mode of transportation: {{ pet.type }} </h4>
+     <h4> length of stay: {{ pet.age }} </h4>
 
 
 </div>
